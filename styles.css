@@ -1,8 +1,18 @@
-.day{
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	flex-direction:column;
+#app{
+  height:90vh;
+}
+.night{
+  background-color: black;
+  color:white;
+}
+
+#swap{
+  outline:0;
+}
+
+.button_night{
+  background-color:blue;
+  color:white; 
 }
 p{
 	color:aqua;

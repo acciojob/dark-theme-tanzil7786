@@ -1,6 +1,7 @@
 //your code here
+let btn = document.getElementById("swap");
 let main = document.getElementById("app");
-let swap = document.getElementById("swap");
-swap.addEventListener("click" , function(){
-	main.style.backgroundColor="black";
+btn.addEventListener("click" , function(){
+	btn.className = "button_night";
+	main.className="night";
 })
